@@ -1,0 +1,54 @@
+{
+  "name": "earlist",
+  "version": "0.0.1",
+  "description": "👂 An elegant HTTP listener.",
+  "author": "Dennis Ollhoff <contact@nyxb.xyz>",
+  "license": "MIT",
+  "hompage": "https://💻nyxb.ws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxblabs/earlist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxblabs/earlist/issues"
+  },
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Happy hacking\" && 💙"
+  },
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "@nyxb/picocolors": "latest",
+    "nyxdefaults": "latest",
+    "scotty-beam-me-up": "latest",
+    "http-shutdown": "^1.2.2",
+    "ip-regex": "^5.0.0",
+    "node-forge": "^1.3.1",
+    "url-ops": "latest"
+  },
+  "devDependencies": {
+    "@nyxb/eslint-config": "0.0.53",
+    "@types/node": "^18.16.3",
+    "@types/node-forge": "^1.3.2",
+    "@vitest/coverage-c8": "^0.31.0",
+    "eslint": "^8.40.0",
+    "dynot": "latest",
+    "typescript": "^5.0.4",
+    "buildkarium": "latest",
+    "vitest": "^0.31.0"
+  },
+  "packageManager": "pnpm@8.5.1",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "keywords": []
+}
