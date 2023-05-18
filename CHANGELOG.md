@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/nyxblabs/earlist/compare/v0.0.2...v0.0.3)
+
+
+### 🎨 Styles
+
+  - **index.ts:** Refactor import statement for picocolors library The import statement for the picocolors library has been refactored to use a default import for the color object. This improves the readability of the code and reduces the number of named imports. ([a2781dd](https://github.com/nyxblabs/earlist/commit/a2781dd))
+
+### ❤️  Contributors
+
+- Nyxb <contact@nyxb.xyz>
+
 ## v0.0.2
 
 
