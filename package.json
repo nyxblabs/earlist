@@ -1,6 +1,6 @@
 {
   "name": "earlist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "👂 An elegant HTTP listener.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
