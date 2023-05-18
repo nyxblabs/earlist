@@ -8,12 +8,14 @@ import { promisify } from 'node:util'
 import { promises as fs } from 'node:fs'
 import { networkInterfaces } from 'node:os'
 import type { AddressInfo } from 'node:net'
-import { bold, cyan, gray, underline } from '@nyxb/picocolors'
+import color from '@nyxb/picocolors'
 import type { GetPortInput } from 'scotty-beam-me-up'
 import { getPort } from 'scotty-beam-me-up'
 import addShutdown from 'http-shutdown'
 import { nyxdefaults } from 'nyxdefaults'
 import { open } from './lib/open'
+
+const { gray, cyan, underline, bold } = color
 
 export interface Certificate {
    key: string
