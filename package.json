@@ -22,7 +22,12 @@
     }
   },
   "scripts": {
-    "test": "echo \"Happy hacking\" && 💙"
+    "build": "buildkarium",
+    "dev": "vitest",
+    "lint": "eslint --ext .ts .",
+    "play": "dynot test/fixture/app",
+    "release": "nyxr test && nyxr build && nyxlx changelogen@latest --release && pnpm publish && git push --follow-tags",
+    "test": "nyxr lint && vitest run --coverage"
   },
   "dependencies": {
     "clipboardy": "^3.0.0",
